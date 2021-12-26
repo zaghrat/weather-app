@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    font-size: larger;
+}
+
+body {
+    background-color: #EEE;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+}
+
+.weather-data {
+    line-height: 200%;
+
+}
+
+.weather-data span, .weather-data img {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
